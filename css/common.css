@@ -1,0 +1,120 @@
+.gallery {
+  box-sizing: border-box;
+}
+ .item {
+  list-style-type: none;
+  border-radius: 8px;
+    padding: 16px;
+    width: 392px;
+    background: #f6f6fe;
+    border: 1px solid #808080;
+    margin-bottom: 24px;
+}
+input {
+  width: 360px;
+  height: 40px;
+}
+.li-style{
+  list-style-type: none;
+  border: 1px solid #808080;
+    border-radius: 4px;
+    width: 350px;
+    height: 40px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.login-form {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  background: #fff;
+  
+}
+button {
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background: #4e75ff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 24px ;
+}
+.widget {
+  border: 1px solid #808080;
+  padding: 100px 88px;
+  width: 345px;
+  height: 280px;
+  background: #fff;
+}
+.change-color {
+  margin: 0 auto;
+  display: block;юю
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+}
+.gallery {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+.img-item {
+  width: 360px;
+  height: 300px;
+}
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+#controls{
+  background: #f6f6fe;
+    border-radius: 8px;
+    padding: 32px;
+    width: 600px;
+    height: 104px;
+    border: 1px solid #808080;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+.input-amount{
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px 72px;
+    width: 150px;
+    height: 40px;
+    margin-right: 10px;
+}
+#boxes{
+   border-radius: 8px;
+    padding: 32px;
+    width: 600px;
+    height: 134px;
+    border: 1px solid #808080;
+    background: #f6f6fe;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.destroy{
+background: #ff4e4e;
+}
