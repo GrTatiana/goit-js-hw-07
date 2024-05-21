@@ -5,6 +5,7 @@ h2Elem.forEach(el => {
   console.log(`Category: ${el.textContent}`);
 });
 const ulElem = document.querySelectorAll('li>ul');
+// ulElem.classList.add('pad');
 ulElem.forEach(el => {
   console.log(`Elements:${el.childElementCount}`);
 });
