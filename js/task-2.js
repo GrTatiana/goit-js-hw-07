@@ -26,8 +26,6 @@ const images = [
 ];
 
 const ulElem = document.querySelector('.gallery');
-const liElem = document.createElement('li');
-liElem.classList.add('.img-item');
 const markup = images
   .map(
     image =>

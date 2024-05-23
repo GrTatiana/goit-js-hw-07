@@ -10,20 +10,22 @@ inputElem.classList.add('input-amount');
 
 btnCreateElem.addEventListener('click', () => {
   const amount = Number(inputElem.value);
-  if (amount > 1 && amount < 100) {
+  if (amount >= 1 && amount <= 100) {
     createBoxes(amount);
     inputElem.value = '';
   }
 });
 function createBoxes(amount) {
+  const arrBoxElem = [];
   divBoxElem.innerHTML = '';
   for (let i = 0; i < amount; i++) {
     const BoxElem = document.createElement('div');
     BoxElem.style.width = `${30 + i * 10}px`;
     BoxElem.style.height = `${30 + i * 10}px`;
     BoxElem.style.backgroundColor = getRandomHexColor();
-    divBoxElem.appendChild(BoxElem);
+    arrBoxElem.push(BoxElem);
   }
+  divBoxElem.append(...arrBoxElem);
 }
 function destroyBoxes() {
   divBoxElem.innerHTML = '';
